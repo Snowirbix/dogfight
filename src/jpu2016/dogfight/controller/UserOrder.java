@@ -10,10 +10,10 @@ public class UserOrder implements IUserOrder {
 	}
 	
 	public Order getOrder() {
-		return this.order;
+		return new Order();
 	}
 	
 	public int getPlayer() {
-		return this.player;
+		return 1;
 	}
 }
